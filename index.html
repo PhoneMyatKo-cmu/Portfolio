@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="style.css">
 
 
+
 </head>
 
 <body>
@@ -29,11 +30,21 @@
             <span class="logotext ga-maamli-regular">HPONE</span>
         </div>
         <div class="links">
-            <div class="container">
+            <div class="container collapse">
                 <a href="#main">About</a>
                 <a href="#project-container">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
+        </div>
+    </div>
+    <div class="hamburger">
+        <div class="hamburger-icon" onclick="openMenu()">
+            <img src="images/menu.png" width="50px" alt="">
+        </div>
+        <div class="menu">
+            <a href="#main">About</a>
+            <a href="#project-container">Projects</a>
+            <a href="#contact">Contact</a>
         </div>
     </div>
     <div class="main arimo-main">
@@ -63,10 +74,10 @@
         </h2>
         <div class="grid-12">
             <div class="col-12 height-300px top-grid card">
-                <div class="col-4 img">
+                <div class="col-4 sm-col-12 img">
                     <img src="images/asteroid.png" alt="">
                 </div>
-                <div class="col-8 content">
+                <div class="col-8 sm-col-12 content">
 
                     <span>
                         <div class="project-header">Asteroid Game</div>
@@ -83,7 +94,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col-6 height-500px bottom-grid card">
+            <div class="col-6 sm-col-12 height-500px bottom-grid card">
                 <div class="col-12 img">
                     <img src="images/Auction.png " alt="">
                 </div>
@@ -100,7 +111,7 @@
                 </div>
                 </span>
             </div>
-            <div class="col-6 height-500px bottom-grid card">
+            <div class="col-6 sm-col-12 height-500px bottom-grid card">
                 <div class="col-12 img"><img src="images/Cropper.png " alt=""></div>
                 <div class="col-12 content">
                     <span>
@@ -118,7 +129,7 @@
         </div>
     </div>
     <div class="contact grid-12" id="contact">
-        <div class="contact-form col-6">
+        <div class="contact-form col-6 sm-col-12">
             <div class="form">
                 <form action="">
                     <p class="header">Contact Me</p>
@@ -139,7 +150,7 @@
                 </form>
             </div>
         </div>
-        <div class="social-links col-6">
+        <div class="social-links col-6 sm-col-12">
             <div>
                 <span class="fb-link"><a href="https://www.facebook.com/gunneriz.pm/"><img
                             src="images/Facebook_Logo.png" alt="" class="icon"></a></span>
