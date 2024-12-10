@@ -392,5 +392,20 @@ a:hover{
     .sm-col-12{
         grid-column: auto / span 12;
     }
+    .social-links{
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-links > div {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: auto auto;
+        width: auto;
+    }
+    .social-links span{
+        margin: 10px auto;
+    }
     
  }
